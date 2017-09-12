@@ -9,13 +9,38 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 70px;
   padding: 20px;
   color: white;
 }
 
 .App-intro {
   font-size: large;
+}
+
+ul > li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.search {
+  height: 30px;
+  width: 300px;
+  font-size: 30px;
+}
+
+.searchButton {
+  background-image: url( 'images/s_icon.png' );
+  background-size: 30px 30px;
+  height: 30px;  
+  width: 30px;
+  margin-left:10px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
 }
 
 @keyframes App-logo-spin {
