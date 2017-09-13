@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import logo from './img/logo.svg';
-import './app.css';
+import '../app.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import about from './about.js';
 import list from './list.js';
+import info from './info.js';
+import home from './home.js';
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
               <Route exact path="/" component={home}/>
               <Route path="/about" component={about}/>
               <Route path="/list" component={list}/>
+              <Route path="/search/:name" component={info}/>
             </div>
           </Router>
         </p>
@@ -31,15 +33,5 @@ class App extends Component {
     );
   }
 }
-
-const home = () => (
-  <div>
-    <h2></h2>
-    <div>
-      <input className="search"/>
-      <button className="searchButton"></button>
-    </div>
-  </div>
-)
 
 export default App;
