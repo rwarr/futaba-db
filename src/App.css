@@ -29,19 +29,25 @@ ul > li {
   font-size: 30px;
 }
 
-.searchButton {
-  background-image: url( './img/s_icon.png' );
-  background-size: 30px 30px;
-  height: 30px;  
-  width: 30px;
+.searchIcon {
+  height: 40px;  
+  width: 40px;
   margin-left:10px;
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
+  vertical-align: bottom;
 }
+
+table {
+  border-collapse: collapse;
+  width: auto;
+  text-align: center;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

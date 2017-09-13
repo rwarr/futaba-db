@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import logo from './img/logo.svg';
-import './app.css';
+import '../app.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 class about extends Component {
@@ -8,6 +7,7 @@ class about extends Component {
     return (
       <div>
         <h2>About</h2>
+        not done. duh.
       </div>
     );
   }
