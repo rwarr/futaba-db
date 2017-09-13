@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import '../app.css';
+import './app.css';
 import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
 
 class info extends Component {
